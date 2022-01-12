@@ -1,0 +1,111 @@
+
+
+
+body{
+  margin : 0;
+  padding: 0;
+  background-color: #1a202c;
+}
+.true-etiket{
+  color: white;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.main{
+  background-color: #1a202c;
+}
+.main-container{
+  
+display: flex;
+height: 96vh;
+
+
+}
+.sa{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.task-done{
+  display: flex;
+  color: white;
+}
+
+.true{
+  
+
+  display: flex;
+  flex-direction: row;
+justify-content: space-between;
+}
+
+.App {
+  
+  font-family: sans-serif;
+  text-align: center;
+
+}
+
+.ekleme_formu input,
+.ekleme_formu button,
+.temizle {
+  padding: 7px;
+  border: 0;
+  outline: 0;
+
+ 
+}
+.baslık{
+  
+ color: white;
+ margin-bottom: 0rem;
+ margin-right: 14.5rem;
+
+ 
+
+}
+.ekleme_formu input {
+width: 16rem;
+  color: white;
+  border: 2px ;
+  border-radius: 8px;
+  padding: 5px;
+  background: #222834;
+  
+}
+
+.add-button{
+  width: 2rem;
+  border-radius: 8px;
+  margin-left: 10px;
+  color: white;
+  background-color: #222834;
+}
+.temizle {
+
+  color: white;
+  background-color: #1a202c;
+  
+}
+
+.liste {
+ 
+  color: white;
+}
+
+.liste > div {
+
+  padding: 8px 0;
+  /*border-bottom: 0px solid #ccc;  yazıların altına çizgi ekler boşluk çizgisi*/ 
+}
+
+.liste > div:last-child {
+  border-bottom: 0;
+}
+
+.yapildi {
+  text-decoration: line-through;
+}
